@@ -1,0 +1,42 @@
+key: homepage_1a
+title: 'single: homepage.yml'
+description: scaffolded single file
+file: data\en\homepage.yml
+hidePreviewIcon: true
+fields:
+  - key: banner
+    type: nest
+    groupdata: true
+    fields:
+      - key: enable
+        type: boolean
+      - key: image
+        type: string
+      - key: contents
+        type: string
+      - key: button
+        type: nest
+        groupdata: true
+        fields:
+          - key: contents
+            type: string
+          - key: url
+            type: string
+  - key: items
+    type: accordion
+    fields:
+      - key: type
+        type: string
+        arrayTitle: true
+      - key: items_per_row
+        type: number
+      - key: items
+        type: accordion
+        fields:
+          - key: title
+            type: string
+            arrayTitle: true
+          - key: icon
+            type: string
+          - key: content
+            type: string

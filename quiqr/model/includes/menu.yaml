@@ -1,0 +1,19 @@
+- key: first_f5
+  title: scaffolded item
+  menuItems:
+    - key: first_f5
+- key: two-sidebar_7a
+  title: scaffolded item
+  menuItems:
+    - key: two-sidebar_7a
+- key: homepage_1a
+  title: Configuration site
+  menuItems:
+    - key: homepage_custom
+      title: Page d'accueil
+    - key: design
+      title: Apparence du site
+- key: menus_07
+  title: scaffolded item
+  menuItems:
+    - key: menus_07

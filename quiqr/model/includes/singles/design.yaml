@@ -1,0 +1,98 @@
+key: design
+title: Design
+file: data/design.yaml
+fields:
+- key: colors
+  title: Couleurs
+  type: nest
+  groupdata: true
+  fields:
+  - key: bg_section
+    title: Background
+    type: section
+    groupdata: false
+    fields:
+    - key: bg
+      title: Base
+      type: color
+      autosave: true
+      tip: "Default: #fff"
+    - key: bgBold
+      title: Bold
+      type: color
+      autosave: true
+      tip: "Default: #f7f7f7"
+    - key: bgAccent
+      title: Accents
+      type: color
+      autosave: true
+      tip: "Default: #37c0fb"
+    - key: bgObscure
+      title: Obscure
+      type: color
+      autosave: true
+      tip: "Default: #333"
+    - key: bgObscureLight
+      title: Obscure - light variant
+      type: color
+      autosave: true
+      tip: "Default: #555"
+    - key: bgObscureBold
+      title: Obscure - bold variant
+      type: color
+      autosave: true
+      tip: "Default: #1f1f1f"
+  - key: fg_section
+    title: Foreground
+    type: section
+    groupdata: false
+    fields:
+    - key: fg
+      title: Base
+      type: color
+      autosave: true
+      tip: "Default: #474747"
+    - key: fgBold
+      title: Bold
+      type: color
+      autosave: true
+      tip: "Default: #4c4c4c"
+    - key: fgLight
+      title: Light
+      type: color
+      autosave: true
+      tip: "Default: #999"
+    - key: fgAccent
+      title: Accents
+      type: color
+      autosave: true
+      tip: "Default: #fff"
+    - key: fgObscure
+      title: Obscure
+      type: color
+      autosave: true
+      tip: "Default: #c0c0c0"
+  - key: borderColor
+    title: Bordures
+    type: color
+    autosave: true
+    tip: "Default: #e0e0e0"
+- key: fonts
+  title: Polices
+  type: nest
+  groupdata: true
+  fields:
+  - key: primary
+    title: Principale
+    type: font-picker
+    limit: 250
+    categories:
+    autosave: true
+  - key: headings
+    title: Titres
+    type: font-picker
+    limit: 250
+    autosave: true
+
+
+

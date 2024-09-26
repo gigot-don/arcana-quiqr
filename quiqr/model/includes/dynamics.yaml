@@ -1,0 +1,76 @@
+- component_type: highlights
+  title: Highlights
+  key: component-highlights
+  fields:
+  - key: items_per_row
+    title: Number of items per row
+    min: 1
+    max: 12
+    step: 1
+    default: 3
+    type: slider
+  - key: items
+    title: Items
+    type: accordion
+    fields:
+    - key: title
+      title: Title
+      type: string
+    - key: icon
+      title: Icon
+      type: fonticon-picker
+    - key: content
+      title: Content
+      type: easymde
+- component_type: heading
+  title: Heading
+  key: component-heading
+  groupdata: false
+  type: nest
+  fields:
+  - key: heading
+    title: Title
+    type: string
+  - key: contents
+    title: Subtitle
+    type: string
+- component_type: posts
+  title: List of Content
+  key: component-posts
+  groupdata: false
+  type: nest
+  fields:
+  - key: heading
+    title: Heading
+    type: string
+  - key: content_type
+    title: Type of Content
+    type: string
+  - key: max
+    title: Number of items
+    type: slider
+    min: 2
+    max: 10
+    step: 1
+    default: 4
+- component_type: cta
+  title: Call to Action
+  key: component-cta
+  groupdata: false
+  type: nest
+  fields:
+  - key: contents
+    title: Contents
+    type: markdown
+  - key: button
+    title: Button
+    type: nest
+    fields:
+    - key: contents
+      title: Contents
+      type: string
+    - key: url
+      title: URL
+      type: string
+
+  

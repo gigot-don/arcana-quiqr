@@ -1,0 +1,23 @@
+key: first_f5
+description: scaffolded collection file
+title: 'collection: first.md'
+extension: md
+itemtitle: Item
+folder: content\posts
+hidePreviewIcon: true
+fields:
+  - key: title
+    type: string
+  - key: image
+    type: string
+  - key: date
+    type: string
+  - key: tags
+    type: leaf-array
+    field:
+      key: item
+      type: string
+  - key: mainContent
+    title: Main Content
+    type: markdown
+dataformat: yaml

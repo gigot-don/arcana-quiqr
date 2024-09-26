@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Mon site par défaut?</title>
+    <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/posts/</link>
+    <description>Recent content in Posts on Mon site par défaut?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Untitled. All rights reserved</copyright>
+    <lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="c:\\Users\\Don-gigot\\Quiqr\\sites\\arcana-demosite\\main\\export/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Sixth Thing</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/posts/sixth/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/posts/sixth/</guid>
+      <description>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.</description>
+    </item>
+    
+    <item>
+      <title>The Fifth Thing</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/posts/fifth/</link>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/posts/fifth/</guid>
+      <description>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.</description>
+    </item>
+    
+    <item>
+      <title>The Fourth Thing</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/posts/fourth/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/posts/fourth/</guid>
+      <description>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.</description>
+    </item>
+    
+    <item>
+      <title>The Third Thing</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/posts/third/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/posts/third/</guid>
+      <description>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.</description>
+    </item>
+    
+    <item>
+      <title>The Second Thing</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/posts/second/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/posts/second/</guid>
+      <description>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.</description>
+    </item>
+    
+    <item>
+      <title>The First Thing</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/posts/first/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/posts/first/</guid>
+      <description>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.</description>
+    </item>
+    
+  </channel>
+</rss>

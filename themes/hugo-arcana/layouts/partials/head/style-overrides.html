@@ -1,0 +1,291 @@
+<!-- For styling that uses Hugo templating  -->
+<!-- Necessary so that changes in styles are updated via livereload -->
+{{ warnf "madafaqa" }}
+<style>
+
+    body {
+      background: {{ $.Site.Data.design.colors.bgBold }} url('images/bg01.png');
+    }
+
+    
+    body, input, select, textarea {
+        color: {{ $.Site.Data.design.colors.fg }};
+    }
+
+    a {
+        color: {{ $.Site.Data.design.colors.bgAccent }};
+    }
+
+    a:hover {
+        color: {{ $.Site.Data.design.colors.bgAccent }};
+    }
+
+    hr {
+        border-top: solid 1px {{ $.Site.Data.design.colors.borderColor }};
+    }
+
+    blockquote {
+        border-left: solid 0.5em {{ $.Site.Data.design.colors.borderColor }};
+    }
+
+    header p {
+        color: {{ $.Site.Data.design.colors.fgLight }};
+    }
+
+    header.major p {
+        border-top: solid 1px {{ $.Site.Data.design.colors.borderColor }};
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    textarea {
+        border: solid 1px {{ $.Site.Data.design.colors.borderColor }};
+        color: {{ $.Site.Data.design.colors.fgBold }};
+    }
+
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+        border-color: {{ $.Site.Data.design.colors.bgAccent }};
+    }
+
+    ::-webkit-input-placeholder
+    :-moz-placeholder,
+    ::-moz-placeholder,
+    :-ms-input-placeholder {
+        color: {{ $.Site.Data.design.colors.fgLight }};
+    }
+
+    .icon.major {
+        background-color: {{ $.Site.Data.design.colors.bgAccent }};
+        color: {{ $.Site.Data.design.colors.fg }};
+        box-shadow: 0 0 0 7px {{ $.Site.Data.design.colors.fgAccent }}, 0 0 0 8px {{ $.Site.Data.design.colors.borderColor }};
+    }
+
+    ul.menu li {
+        border-left: solid 1px {{ $.Site.Data.design.colors.borderColor }};
+    }
+
+    table.default tbody tr {
+        border-bottom: solid 1px {{ $.Site.Data.design.colors.borderColor }};
+    }
+
+    table.default tbody thead {
+        background-color: {{ $.Site.Data.design.colors.bgLight }};
+        color: {{ $.Site.Data.design.colors.fg }};
+    }
+
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    button,
+    .button {
+        background-color: {{ $.Site.Data.design.colors.bgAccent }};
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover,
+    input[type="button"]:hover,
+    button:hover,
+    .button:hover {
+        background-color: {{ $.Site.Data.design.colors.bgAccent }};
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+        filter: brightness(1.05);
+    }
+
+    input[type="submit"]:active,
+    input[type="reset"]:active,
+    input[type="button"]:active,
+    button:active,
+    .button:active {
+        background-color: {{ $.Site.Data.design.colors.bgAccent }};
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+        filter: brightness(0.95);
+    }
+
+    input[type="submit"].alt,
+    input[type="reset"].alt,
+    input[type="button"].alt,
+    button.alt,
+    .button.alt {
+        background-color: {{ $.Site.Data.design.colors.bgLight }};
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+    }
+
+    input[type="submit"].alt:hover,
+    input[type="reset"].alt:hover,
+    input[type="button"].alt:hover,
+    button.alt:hover,
+    .button.alt:hover {
+        background-color: {{ $.Site.Data.design.colors.bgLight }};
+        filter: brightness(1.05);
+    }
+
+    input[type="submit"].alt:active,
+    input[type="reset"].alt:active,
+    input[type="button"].alt:active,
+    button.alt:active,
+    .button.alt:active {
+        background-color: {{ $.Site.Data.design.colors.bgLight }};
+        filter: brightness(0.95);
+    }
+
+    #header {
+        background-color: {{ $.Site.Data.design.colors.bg }};
+    }
+
+    #nav {
+        background-color: {{ $.Site.Data.design.colors.bgObscure }};
+    }
+
+    #nav:after {
+        background-color: {{ $.Site.Data.design.colors.bgAccent }};
+    }
+
+    #nav>ul>li a {
+        color: {{ $.Site.Data.design.colors.fgObscure }};
+    }
+
+    #nav>ul>li:hover a {
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+    }
+
+    #nav>ul>li.current:before {
+        background-color: {{ $.Site.Data.design.colors.bgAccent }};
+    }
+        
+    #nav>ul>li.current a {
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+    }
+        
+    #nav>ul>li.active a {
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+    }
+
+    .dropotron {
+        background-color: {{ $.Site.Data.design.colors.bgObscure }};
+        color: {{ $.Site.Data.design.colors.bgAccent }};
+    }
+
+    .dropotron>li>a {
+        color: {{ $.Site.Data.design.colors.fgObscure }};
+    }
+
+    .dropotron>li.active>a,
+    .dropotron>li:hover>a {
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+    }
+
+    #banner header {
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+    }
+
+    #banner header h2 a {
+        border-bottom-color: {{ $.Site.Data.design.colors.fgAccent }};
+        // opacity: 0.5; // only should apply to the border-bottom
+    }
+
+    #banner header h2 a:hover {
+        border-bottom-color: transparent;
+    }
+
+    .wrapper.style1,
+    .wrapper.style2 {
+        background-color: {{ $.Site.Data.design.colors.bg }};
+    }
+
+    .wrapper.style3 {
+        background-color: {{ $.Site.Data.design.colors.bgAccent }};
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+    }
+
+    .wrapper.style3 .button {
+        background-color: {{ $.Site.Data.design.colors.fgAccent }};
+        color: {{ $.Site.Data.design.colors.fg }};
+    }
+
+    .wrapper.style3 .button:hover {
+        color: {{ $.Site.Data.design.colors.bgAccent }} !important;
+    }
+
+    #footer a {
+        border-bottom-color: {{ $.Site.Data.design.colors.fg }};
+        opacity: 0.75;
+    }
+
+    #footer a:hover {
+        color: {{ $.Site.Data.design.colors.bgAccent }};
+        border-bottom-color: transparent;
+    }
+
+    #footer .icons a {
+        color: {{ $.Site.Data.design.colors.fgLight }};
+    }
+    
+    #footer .icons a:hover {
+        color: {{ $.Site.Data.design.colors.fg }};
+    }
+
+    #footer .copyright {
+        color: {{ $.Site.Data.design.fgLight }};
+    }
+
+    .dropdown-content {
+        background-color: {{ $.Site.Data.design.colors.fgBold }};
+    }
+
+    .dropdown-content a {
+        color: {{ $.Site.Data.design.colors.fgLight }};
+    }
+
+    .dropdown-content a:hover {
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+    }
+
+    .dropdown-content a.selected {
+        color: {{ $.Site.Data.design.colors.bgAccent }} !important;
+    }
+
+@media screen and (max-width: 840px) {
+    #titleBar {
+        background-color: {{ $.Site.Data.design.colors.bg }};
+        box-shadow: 0 4px 0 0 {{ $.Site.Data.design.colors.bg}};
+    }
+
+    #titleBar .title{
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+    }
+
+    #titleBar .toggle:before{
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+    }
+
+    #navPanel {
+        background-color: {{ $.Site.Data.design.colors.bgBoldObscure }};
+    }
+
+    #navPanel .link {
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+        filter: brightness(0.77);
+    }
+
+    #navPanel .link.depth-0 {
+        color: {{ $.Site.Data.design.colors.fgAccent }};
+        filter: brightness(1);
+    }
+
+    .dropdown-content a:hover {
+        color: {{ $.Site.Data.design.colors.fgAccent }} !important;
+    }
+}
+@media screen and (max-width: 480px) {
+    .icon.major {
+        box-shadow: 0 0 0 7px white, 0 0 0 8px {{ $.Site.Data.design.colors.borderColor }};
+    }
+}
+
+
+</style>

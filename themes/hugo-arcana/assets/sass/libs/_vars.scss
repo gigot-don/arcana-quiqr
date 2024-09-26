@@ -1,0 +1,44 @@
+// Misc.
+    $misc: (
+        z-index-base:   10000
+    );
+
+// Duration.
+    $duration: (
+        navPanel: 0.5s
+    );
+
+// Size.
+    $size: (
+        navPanel: 275px,
+        radius: 5px
+    );
+
+// Font.
+    $font: (
+    );
+
+    {{ with .Site.Data.design.colors }}
+// Palette.
+    $palette: (
+        bg: {{.bg | default "#fff" }},
+        bg-bold: {{.bgBold | default "#f7f7f7" }},
+        fg: {{.fg | default "#474747" }},
+        fg-bold: {{.fgBold | default "#4c4c4c" }},
+        fg-light: {{.fgLight | default "#999" }},
+        border: {{.borderColor | default "#e0e0e0" }},
+
+        accent: (
+            bg: {{.bgAccent | default "#37c0fb" }},
+            fg: {{.fgAccent | default "#fff" }}
+        ),
+        obscure: (
+            bg: {{.bgObscure | default "#333" }},
+            bg-light: {{.bgObscureLight | default "#555" }},
+            bg-bold: {{.bgObscureBold | default "#1f1f1f" }},
+            fg: {{.fgObscure | default "#c0c0c0" }}
+
+        )
+    );
+    
+    {{ end }}

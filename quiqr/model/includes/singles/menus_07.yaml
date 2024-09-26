@@ -1,0 +1,14 @@
+key: menus_07
+title: 'single: menus.toml'
+description: scaffolded single file
+file: config\_default\menus.toml
+hidePreviewIcon: true
+fields:
+  - key: main
+    type: accordion
+    fields:
+      - key: name
+        type: string
+        arrayTitle: true
+      - key: weight
+        type: number

@@ -1,0 +1,10 @@
+{
+  "enable": false,
+  "min_keywords": 15,
+  "max_keywords": 20,
+  "word_count": 1500,
+  "title_character_count": 60,
+  "description_character_count": 150,
+  "content_css_selector": "#content",
+  "preview_url": "https://quiqr.github.io/quiqr-preview-check/"
+}

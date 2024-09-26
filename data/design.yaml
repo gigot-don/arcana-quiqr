@@ -1,0 +1,16 @@
+colors:
+  bg: white
+  bgBold: '#f7f7f7'
+  fg: '#474747'
+  fgBold: '#4c4c4c'
+  fgLight: '#999'
+  borderColor: '#e0e0e0'
+  bgAccent: '#37c0fb'
+  fgAccent: white
+  bgObscure: '#333'
+  bgObscureLight: '#555'
+  bgObscureBold: '#1f1f1f'
+  fgObscure: '#c0c0c0'
+fonts:
+  primary: ''
+  headings: ''

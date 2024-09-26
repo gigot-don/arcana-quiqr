@@ -1,0 +1,55 @@
+key: homepage_custom
+title: Homepage
+file: data/en/homepage.yml
+fields:
+- key: homepage_outer
+  title: Homepage
+  type: section
+  groupdata: false
+  fields: 
+  - key: banner
+    title: Banner
+    type: nest
+    fields:
+    - key: enable
+      title: Enabled
+      default: true
+      type: boolean
+    - key: image
+      title: Image
+      type: image-select
+      path: /images
+      real_fs_path: /static/images
+    - key: contents
+      title: Contents
+      type: markdown
+    - key: button
+      title: Button configuration
+      type: section
+      fields:
+      - key: contents
+        title: Content
+        type: string
+      - key: url
+        title: URL
+        type: string
+  - key: items
+    multiple: false
+    title: Page sections
+    #dynFormObjectFile: quiqr/model/includes/dynamics/homepage_blocks.yaml
+    #dynFormObjectRoot: components
+    dynFormSearchKey: component_type
+    fields:
+    - key: component_type
+      multiple: false
+      type: select
+      options:
+      - text: Highlights
+        value: highlights
+      - text: Heading
+        value: heading
+      - text: List of Content
+        value: posts
+      - text: Call to Action
+        value: cta
+    type: accordion

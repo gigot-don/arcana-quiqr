@@ -1,0 +1,13 @@
+{{ $options := (dict "targetPath" "/style.css" "outputStyle" "nested" "enableSourceMap" .Site.Params.enableSourceMaps) }}
+{{ $cssVars := resources.Get "sass/libs/_vars.scss" | resources.ExecuteAsTemplate "vars.scss" . }}
+{{ $cssMain := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "core.scss" . }}
+{{ $style := slice $cssVars $cssMain | resources.Concat "sass/main.scss" | resources.ToCSS $options }}
+
+{{ if hugo.IsDevelopment }}
+{{ warnf "We in development mode: inline CSS in each page"}}
+<style>
+    {{ $style.Content | safeCSS }}
+</style>
+{{ else }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" />
+{{ end }}

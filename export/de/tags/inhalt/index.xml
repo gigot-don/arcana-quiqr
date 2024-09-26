@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>inhalt on Mon site par défaut?</title>
+    <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/inhalt/</link>
+    <description>Recent content in inhalt on Mon site par défaut?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <copyright>© Untitled. All rights reserved</copyright><atom:link href="c:\\Users\\Don-gigot\\Quiqr\\sites\\arcana-demosite\\main\\export/de/tags/inhalt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linke Seitenleiste</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/left-sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/left-sidebar/</guid>
+      <description>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi consequat etiam lorem ipsum dolor sit amet nullam.
+Und eine weitere Überschrift Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem.</description>
+    </item>
+    
+    <item>
+      <title>Rechte Seitenleiste</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/right-sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/right-sidebar/</guid>
+      <description>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi consequat etiam lorem ipsum dolor sit amet nullam.
+Und eine weitere Überschrift Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem.</description>
+    </item>
+    
+    <item>
+      <title>Zwei Seitenleisten</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/two-sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/two-sidebar/</guid>
+      <description>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi consequat etiam lorem ipsum dolor sit amet nullam.
+Und eine weitere Überschrift Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem.</description>
+    </item>
+    
+    <item>
+      <title>Keine Seitenleiste</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/no-sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/no-sidebar/</guid>
+      <description>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi consequat etiam lorem ipsum dolor sit amet nullam.
+Und eine weitere Überschrift Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem.</description>
+    </item>
+    
+  </channel>
+</rss>

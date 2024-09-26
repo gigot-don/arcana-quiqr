@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mon site par défaut?</title>
+    <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/</link>
+    <description>Recent content in Tags on Mon site par défaut?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <copyright>© Untitled. All rights reserved</copyright>
+    <lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="c:\\Users\\Don-gigot\\Quiqr\\sites\\arcana-demosite\\main\\export/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>beispiel</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/beispiel/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/beispiel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>duis neque</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/duis-neque/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/duis-neque/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lorem ipsum</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/lorem-ipsum/</link>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/lorem-ipsum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beispiele</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/beispiele/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/beispiele/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inhalt</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/inhalt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/inhalt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>seitenleiste</title>
+      <link>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/seitenleiste/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>c:\Users\Don-gigot\Quiqr\sites\arcana-demosite\main\export/de/tags/seitenleiste/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

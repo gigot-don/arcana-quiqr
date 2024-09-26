@@ -1,0 +1,31 @@
+key: two-sidebar_7a
+title: 'single: two-sidebar.md'
+description: scaffolded single file
+file: content\two-sidebar.md
+hidePreviewIcon: true
+fields:
+  - key: title
+    type: string
+  - key: description
+    type: string
+  - key: menu
+    type: string
+  - key: weight
+    type: number
+  - key: image
+    type: string
+  - key: image_alt
+    type: string
+  - key: tags
+    type: leaf-array
+    field:
+      key: item
+      type: string
+  - key: sidebar_left
+    type: string
+  - key: sidebar_right
+    type: string
+  - key: mainContent
+    title: Main Content
+    type: markdown
+dataformat: yaml

@@ -1,0 +1,16 @@
+- key: mainConfig
+  title: Site Configuration
+  file: config.yaml
+  fields:
+    - key: title
+      title: Site Title
+      type: string
+      tip: Your page title.
+    - key: baseURL
+      title: Base URL
+      type: string
+      tip: Your site URL.
+
+#- key: menu
+#  title: Menu de navigation
+#  file: /config/_
